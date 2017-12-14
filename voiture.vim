@@ -249,7 +249,7 @@ set modeline
 set modelines=1
 set colorcolumn=+0
 set number
-set nrformats=bin,hex
+set nrformats-=octal
 highlight ColorColumn ctermbg=0 ctermfg=7
 highlight Normal ctermfg=247 guibg=Black
 highlight Ignore ctermfg=DarkGrey guifg=DarkGrey
